@@ -1,8 +1,10 @@
-import logo from './logo.svg'
+import './tailwind.css'
 function App() {
   return (
     <div className="App">
-      <img src={logo} />
+        <h1 className="text-3xl font-bold underline">
+            Hello world!
+        </h1>
     </div>
   );
 }
